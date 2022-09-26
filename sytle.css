@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, rgb(63, 3, 63, 70%), rgb(63, 3, 63));
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.output{
+    width: 400px;
+    min-height: 100px;
+    max-height: auto;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    letter-spacing: -3px;
+}
+
+.output-above{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.output-below{
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.btn{
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 32px;
+    outline: none;
+    background: rgb(0, 0, 0, 90%);
+    border: none;
+    margin-right: -4.5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.btn:hover, .btn-2lines:hover{
+    background: rgb(77, 77, 77);
+}
+
+.btn-2lines{
+    min-width: 200px;
+    min-height: 100px;
+    font-size: 32px;
+    outline: none;
+    background: rgb(0, 0, 0, 90%);
+    border: none;
+    /* margin-left: 3px; */
+    margin-right: -5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.sinals{
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 32px;
+    outline: none;
+    background: rgb(197, 16, 197);
+    border: none;
+    cursor: pointer;
+    color: #eee;
+}
+
+.sinals:hover{
+    background: rgb(90, 8, 90);
+}
+

@@ -35,6 +35,7 @@ main{
     color: rgba(255, 255, 255, 0.75);
     font-size: 1.5rem;
     margin-right: 10px;
+    word-spacing: 3px;
 }
 
 .output-below{
